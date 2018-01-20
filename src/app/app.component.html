@@ -1,5 +1,18 @@
-<a href="javascript:;" (click)="send()">Send</a>
+<div *ngFor="let messages of messagesList">
+    {{messages}}
+</div>
 
-<div *ngFor="let message of messages">
-    {{message}}
+<div class="row">
+    <form class="col s12" #form="ngForm" (submit)="send()">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="message" type="text" class="validate" [(ngModel)]="message.content" name="content"
+                       #content="ngModel" required>
+                <label for="message">Сообщение</label>
+                <button type="submit" class="btn-floating btn-large red">
+                    <i class="large material-icons">mode_edit</i>
+                </button>
+            </div>
+        </div>
+    </form>
 </div>
