@@ -1,6 +1,8 @@
-<div *ngFor="let messages of messagesList">
-    {{messages}}
-</div>
+<ul>
+    <li *ngFor="let messages of messagesList">
+        <b>{{messages.author}}</b> {{messages.content}}
+    </li>
+</ul>
 
 <div class="row">
     <form class="col s12" #form="ngForm" (submit)="send()">

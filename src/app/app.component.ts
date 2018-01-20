@@ -20,7 +20,7 @@ export class AppComponent {
     constructor() {
         this.socket = io();
         this.socket.on('chat message', (msg) => {
-            this.messagesList.push(msg);
+            this.messagesList.push(JSON.parse(msg));
         });
         this.message.author = 'User Name';
     }

@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
         console.log('User disconnect');
     });
     socket.on('chat message', (msg) => {
-        io.emit('chat message', JSON.parse(msg));
+        io.emit('chat message', msg);
     });
 });
 
