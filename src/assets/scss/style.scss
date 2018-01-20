@@ -1,0 +1,138 @@
+body {
+  background-color: #e4e4e4;
+  font-family: 'Open Sans', sans-serif;
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  color: #f5f5f5 !important;
+}
+
+.content {
+  margin-top: 50px;
+
+}
+
+.navbar-brand:hover {
+  color: #d4d4d4 !important;
+}
+
+.navbar {
+  background-color: rgba(24, 50, 87, 0.73);
+  border: none;
+}
+
+.navbar a {
+  color: #f5f5f5 !important;
+  margin-left: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.navbar .contact {
+  margin-top: 15px;
+}
+
+.nav-but {
+  float: left;
+  margin-left: 30px;
+  background: none;
+  border: none;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.m-l-40 {
+  margin-left: 40px;
+}
+
+/*Страница входа*/
+
+.login-register-form {
+  margin: 100px auto;
+  width: 400px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.login-register-form form {
+  width: 300px;
+}
+
+.login-register-form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-register-form input {
+  font-size: 12px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+}
+
+.login-register-form label {
+  font-size: 12px;
+  clear: both;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-register-form button {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.login-register-form a {
+  width: 148px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.login-register-form a:hover {
+  opacity: 1;
+}
+
+.label-hidden {
+  display: none;
+}
+
+.login-register-form .or {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.login-register-form .vk {
+  opacity: 1;
+  color: #fff;
+  background-color: #5181b8;
+}
+
+.login-register-form .fb {
+  opacity: 1;
+  color: #fff;
+  background-color: #365899;
+}
+
+.login-register-form small {
+  color: #fff;
+  padding-top: 10px;
+  opacity: .8;
+}
+
+.chat{
+  background-color: rgba(0, 0, 0, .2);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}

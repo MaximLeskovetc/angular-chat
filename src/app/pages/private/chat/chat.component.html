@@ -1,0 +1,17 @@
+<div class="main">
+    <ul>
+        <li *ngFor="let messages of messagesList">
+            <b>{{messages.author}}</b> {{messages.content}}
+        </li>
+    </ul>
+    <div class="chat">
+        <form class="col-md-12" #form="ngForm" (submit)="send()">
+            <label for="message">Сообщение</label>
+            <input id="message" type="text" [(ngModel)]="chat.content" name="content"
+                   #content="ngModel" required>
+            <button [disabled]="!form.valid" type="submit" class="btn btn-info pull-right">
+                Отправить
+            </button>
+        </form>
+    </div>
+</div>

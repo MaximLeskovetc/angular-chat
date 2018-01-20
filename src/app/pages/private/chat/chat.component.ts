@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Chat} from '../model/chat';
+import {Chat} from '../../../model/chat';
 import * as io from 'socket.io-client';
 
 @Component({
